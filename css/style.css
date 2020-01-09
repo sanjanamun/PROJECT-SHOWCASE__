@@ -1,0 +1,182 @@
+
+/********initial part*******/
+*{
+    margin: 0;
+    padding: 0
+}
+body{
+    
+}
+/********animation-section*******/
+.header{
+    background-image: url(../image/flower.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    min-height: 100vh;
+}
+/********animation-section*******/
+/********initial part*******/
+/********navbar-brand*******/
+.navbar-dark .navbar-brand {
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #ffffff !important;
+    font-size: 28px;
+    background-color: #e09c94;
+    padding: 10px 28px;
+    display: block;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border: 2px solid rgba(255, 255, 255, 0.36);
+}
+.navbar-toggler span{
+color:#fff;
+height: 2px;
+width: 25px;
+display: block;
+background-color: #fff;
+margin: 7px;
+border: 1px solid #fff;
+}
+    /********navbar-brand*******/
+/***********banner part***/
+.banner-content {
+    color: #fff;
+    position: absolute;
+    border: 0;
+    right: 0;
+    top: 20%;
+    text-align: center;
+    width: 100%;
+    transform: translateY(50%);
+    -moz-transform: translateY(50%);
+    /* -webkit-transform: translateY(-30%); */
+    position: absolute;
+}
+.banner-content span {
+    width: 100px;
+    height: 2px;
+    background-color: #FB2056;
+    display: block;
+    margin: 10px auto 5px;
+    margin-bottom: 20px;
+}
+.banner-content  h6{
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.banner-content  h1{margin-bottom: 30px;text-transform: uppercase;}
+
+.banner-content .banner-design{
+    background: #1b1a1a87;
+    padding: 30px;
+}
+.banner-content .btn-custom{
+    color: #fff;
+    padding: 10px 40px;
+    background-color: #f5aba2de;
+    border: 2px solid rgba(255, 255, 255, 0.36);
+    border-top-right-radius: 26px;
+    border-bottom-left-radius: 26px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.banner-content .btn-custom:hover{
+    color: #f5aba2de;
+    background-color: #ffffff45;
+    border: 2px solid #f5aba2de;
+}
+/***********banner part***/
+/**********navbar**********/
+ .navbar-collapse{
+}
+ .navbar-collapse ul{
+}
+ .navbar-collapse ul li{
+     text-transform: uppercase;
+     font-size: 18px;
+     font-weight: 100;
+     transition: all 0.4s cubic-bezier(0.16, 0.19, 0, 0.62);
+}
+ .navbar-collapse ul li:hover{
+     font-weight: 300;
+}
+ .navbar-collapse ul li a{
+     position: relative;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff !important;
+    font-weight: 600;
+    font-size: 17px;
+    display: block;
+    margin: 10px 10px;
+    padding: 10px 32px;
+    border: 2px solid rgba(255, 255, 255, 0.42);
+    background-color: #e09c94;
+    border-radius: 10px;
+    text-align: center;
+    z-index: 9999;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    border: 2px solid rgba(255, 255, 255, 0.24);
+}
+/**********navbar**********/
+ .social-icon li{
+     position: relative;
+}
+ ul.social-icon a{
+     color: #979598;
+     display: block;
+     width: 30px;
+     height: 30px;
+     text-align: center;
+     line-height: 30px;
+     margin-bottom: 10px;
+     border-radius: 50%;
+     background-color: #fff;
+     transition: all 0.4s cubic-bezier(0.16, 0.19, 0, 0.62);
+}
+ ul.social-icon a:hover{
+     background-color: #40AFCC;
+}
+ ul.social-icon span{
+     transform: rotate(-90deg);
+     display: inline-block;
+     top: 24px;
+     right: -32px;
+     position: absolute;
+     width: 100px;
+     font-size: 16px;
+}
+/********social icon for header *********/
+
+.animation{
+    background: #e09c94;
+    background-image: url(../image/flower.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.display-image{
+    margin-top: 100px;
+}
+.display-image h2{
+    background: #e09c94;
+    color: #fff;
+    padding: 10px 5px;
+    text-align: center;
+    font-size: 18px;
+    font-family: monospace;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border: 2px solid rgba(255, 255, 255, 0.31);
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: inline-block;
+    width: 400px;
+    margin-bottom: 30px;
+    box-shadow: 22px 2.4px 38px #e0e0e094;
+}

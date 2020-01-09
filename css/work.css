@@ -1,0 +1,51 @@
+
+
+.header{
+    background-image: url(../image/flower.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    min-height: 100vh;
+}
+.navbar-dark .navbar-brand {
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #ffffff !important;
+    font-size: 20px;
+    background-color: #e09c94;
+    padding: 10px 28px;
+    display: block;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border: 2px solid rgba(255, 255, 255, 0.36);
+}
+.img-section{
+    margin-bottom: 20px;
+}
+.banner-content {
+    color: #fff;
+    position: absolute;
+    border: 0;
+    right: 0;
+    top: 0;
+    text-align: center;
+    width: 100%;
+    -moz-transform: translateY(50%);
+    /* -webkit-transform: translateY(-30%); */
+    position: absolute;
+    margin-top: 20px;
+    padding: 30px;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff !important;
+    font-weight: 600;
+    font-size: 17px;
+    display: block;
+    margin: 10px 10px;
+    padding: 10px 32px;
+    border: 2px solid rgba(255, 255, 255, 0.42);
+    background-color: #e09c94;
+    border-radius: 10px;
+    text-align: center;
+    z-index: 9999;
+}
