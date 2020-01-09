@@ -19,8 +19,10 @@
     border-bottom-left-radius: 30px;
     border: 2px solid rgba(255, 255, 255, 0.36);
 }
-.img-section{
+    .img-section {
     margin-bottom: 20px;
+    box-shadow: 0 2.5px 31px #e0e0e0c4;
+
 }
     .banner-content {
     color: #fff;
