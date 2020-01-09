@@ -22,7 +22,7 @@
 .img-section{
     margin-bottom: 20px;
 }
-.banner-content {
+    .banner-content {
     color: #fff;
     position: absolute;
     border: 0;
@@ -30,12 +30,11 @@
     top: 0;
     text-align: center;
     width: 100%;
-    -moz-transform: translateY(50%);
-    /* -webkit-transform: translateY(-30%); */
     position: absolute;
     margin-top: 20px;
     padding: 30px;
 }
+
 .navbar-dark .navbar-nav .nav-link {
     color: #fff !important;
     font-weight: 600;
